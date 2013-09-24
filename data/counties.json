@@ -1,0 +1,884 @@
+[{
+    "county": {
+        "name": "San Bernardino",
+        "latitude": 34.9592083,
+        "longitude": -116.419389,
+        "id": 1,
+        "slug": "san-bernardino",
+        "fires": [{
+            "fire": {
+                "name": "Mills Fire",
+                "date": "2013-06-28T21:30:00Z",
+                "acreage": 534,
+                "containment": 100,
+                "location": "south of Highway 38 & Bryant Street, northwest of Yucaipa  "
+            }
+        }, {
+            "fire": {
+                "name": "Lytle Fire",
+                "date": "2013-05-13T20:30:00Z",
+                "acreage": 75,
+                "containment": 100,
+                "location": "I-15 at Sierra Ave, near Lytle Creek "
+            }
+        }, {
+            "fire": {
+                "name": "Fawnskin Fire",
+                "date": "2013-04-21T00:30:00Z",
+                "acreage": 30,
+                "containment": 100,
+                "location": "west of Delamar Mountain, north of the community of Fawnskin, northside of Big Bear Lake "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Monterey",
+        "latitude": 36.3136201,
+        "longitude": -121.3541631,
+        "id": 2,
+        "slug": "monterey",
+        "fires": [{
+            "fire": {
+                "name": "Freeman Fire",
+                "date": "2013-06-29T21:09:00Z",
+                "acreage": 105,
+                "containment": 100,
+                "location": "off Hwy 198, 10 miles east of King City "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Riverside",
+        "latitude": 33.6825587,
+        "longitude": -115.4733554,
+        "id": 3,
+        "slug": "riverside",
+        "fires": [{
+            "fire": {
+                "name": "Hathaway Fire",
+                "date": "2013-06-09T19:30:00Z",
+                "acreage": 0,
+                "containment": 0,
+                "location": "Hathaway Canyon area, northeast of Banning "
+            }
+        }, {
+            "fire": {
+                "name": "Palmyrita Fire",
+                "date": "2013-06-14T20:47:00Z",
+                "acreage": 40,
+                "containment": 100,
+                "location": "Highgrove Pass Rd and Pigeon Pass Rd, Community of Highgrove "
+            }
+        }, {
+            "fire": {
+                "name": "Viper Fire",
+                "date": "2013-06-08T22:37:00Z",
+                "acreage": 42,
+                "containment": 100,
+                "location": "off San Timoteo Canyon Rd and Viper Rd, north of Moreno Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Smiley Fire",
+                "date": "2013-05-25T21:59:00Z",
+                "acreage": 124,
+                "containment": 100,
+                "location": "Off Smiley Blvd & Vista Suelto Rd, north of Moreno Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Water Fire",
+                "date": "2013-05-21T21:16:00Z",
+                "acreage": 90,
+                "containment": 100,
+                "location": "Off Whitewater Canyon Road in Whitewater "
+            }
+        }, {
+            "fire": {
+                "name": "Cherry Fire",
+                "date": "2013-05-20T20:47:00Z",
+                "acreage": 25,
+                "containment": 100,
+                "location": "Off Sunset Ave & Mesa St in Banning "
+            }
+        }, {
+            "fire": {
+                "name": "54 Fire",
+                "date": "2013-05-16T20:48:00Z",
+                "acreage": 40,
+                "containment": 100,
+                "location": "Avenue 54 and Tyler Street, near the community of Coachella "
+            }
+        }, {
+            "fire": {
+                "name": "Gorgonio Fire",
+                "date": "2013-05-04T18:43:00Z",
+                "acreage": 510,
+                "containment": 100,
+                "location": "Highway 243, south of Banning and north of Pine Cove "
+            }
+        }, {
+            "fire": {
+                "name": "Summit Fire",
+                "date": "2013-05-01T19:38:00Z",
+                "acreage": 3166,
+                "containment": 100,
+                "location": "Mias Canyon and Bluff Road in Banning "
+            }
+        }, {
+            "fire": {
+                "name": "Jurupa Fire",
+                "date": "2013-03-01T00:43:00Z",
+                "acreage": 311,
+                "containment": 100,
+                "location": "Rio Rancho Rd & Calle Hermosa, Jurupa Valley "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Fresno",
+        "latitude": 36.9858984,
+        "longitude": -119.2320784,
+        "id": 4,
+        "slug": "fresno",
+        "fires": [{
+            "fire": {
+                "name": "George Fire",
+                "date": "2013-06-25T20:36:00Z",
+                "acreage": 150,
+                "containment": 100,
+                "location": "off Bronco Lane in Squaw Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Sierra Fire",
+                "date": "2013-06-17T21:41:00Z",
+                "acreage": 46,
+                "containment": 100,
+                "location": "Black Mountain Road at Lodge Road near Sierra High School, southeast of Auberry "
+            }
+        }, {
+            "fire": {
+                "name": "Michelle Fire",
+                "date": "2013-06-13T22:54:00Z",
+                "acreage": 35,
+                "containment": 100,
+                "location": "off McKinley Ave & Academy Ave, north of Sanger  "
+            }
+        }, {
+            "fire": {
+                "name": "Clinton Fire",
+                "date": "2013-06-13T18:54:00Z",
+                "acreage": 108,
+                "containment": 100,
+                "location": "Clinton and Highland, East of Fresno "
+            }
+        }, {
+            "fire": {
+                "name": "Butte Fire",
+                "date": "2013-04-09T19:35:00Z",
+                "acreage": 80,
+                "containment": 100,
+                "location": "Butte Ave near Conejo Ave near the community of Helm. "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Lake",
+        "latitude": 39.08396440000001,
+        "longitude": -122.8084496,
+        "id": 5,
+        "slug": "lake",
+        "fires": [{
+            "fire": {
+                "name": "Mount Fire",
+                "date": "2013-06-20T21:29:00Z",
+                "acreage": 25,
+                "containment": 100,
+                "location": "Off Konocti Rd & Oak Hills Ln, east of Kelseyville "
+            }
+        }, {
+            "fire": {
+                "name": "Becks Fire",
+                "date": "2013-01-22T19:08:00Z",
+                "acreage": 296,
+                "containment": 100,
+                "location": "North of Highway 29, southeast of Kelseyville "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Solano",
+        "latitude": 38.3104969,
+        "longitude": -121.9017954,
+        "id": 6,
+        "slug": "solano",
+        "fires": [{
+            "fire": {
+                "name": "California Fire",
+                "date": "2013-06-18T22:18:00Z",
+                "acreage": 124,
+                "containment": 100,
+                "location": "Off Lake Herman Rd, west of Hwy 680 in Benicia "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Madera",
+        "latitude": 37.251926,
+        "longitude": -119.6962677,
+        "id": 7,
+        "slug": "madera",
+        "fires": [{
+            "fire": {
+                "name": "Rolling Fire",
+                "date": "2013-06-16T13:17:00Z",
+                "acreage": 482,
+                "containment": 100,
+                "location": "off Hwy 41 & Road 145, northwest of Friant  "
+            }
+        }, {
+            "fire": {
+                "name": "Revis Fire",
+                "date": "2013-06-12T23:40:00Z",
+                "acreage": 75,
+                "containment": 100,
+                "location": "Off Revis Road & Yosemite Springs Parkway in Yosemite Lake Parks area in Coarsegold "
+            }
+        }, {
+            "fire": {
+                "name": "Lilly 2 Fire",
+                "date": "2013-05-19T22:07:00Z",
+                "acreage": 91,
+                "containment": 100,
+                "location": "Off Road 400 & Sandy Beach Dr. in Yosemite Lakes "
+            }
+        }, {
+            "fire": {
+                "name": "Ranger Fire",
+                "date": "2013-05-12T20:02:00Z",
+                "acreage": 15,
+                "containment": 100,
+                "location": "Off Range Circle Dr in Yosemite Lake "
+            }
+        }, {
+            "fire": {
+                "name": "Gold Fire",
+                "date": "2013-04-30T19:59:00Z",
+                "acreage": 274,
+                "containment": 100,
+                "location": "Between Road 210 and Road 200 near Fine Gold Creek in the community of O'Neals "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Mariposa",
+        "latitude": 37.4893626,
+        "longitude": -119.9679294,
+        "id": 8,
+        "slug": "mariposa",
+        "fires": [{
+            "fire": {
+                "name": "Carstens Fire",
+                "date": "2013-06-16T21:12:00Z",
+                "acreage": 1708,
+                "containment": 100,
+                "location": "Off Carstens Road, east of 140 in the Midpines area. "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Placer",
+        "latitude": 39.0915751,
+        "longitude": -120.8039474,
+        "id": 9,
+        "slug": "placer",
+        "fires": [{
+            "fire": {
+                "name": "PFE Fire",
+                "date": "2013-06-13T18:28:00Z",
+                "acreage": 237,
+                "containment": 100,
+                "location": "PFE Road and Watt Avenue, West Roseville "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Amador",
+        "latitude": 38.4092417,
+        "longitude": -120.6660044,
+        "id": 10,
+        "slug": "amador",
+        "fires": [{
+            "fire": {
+                "name": "Roadrunner Fire",
+                "date": "2013-06-12T23:43:00Z",
+                "acreage": 96,
+                "containment": 100,
+                "location": "Roadrunner Drive, south of Ione "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Glenn",
+        "latitude": 39.6437813,
+        "longitude": -122.4467238,
+        "id": 11,
+        "slug": "glenn",
+        "fires": [{
+            "fire": {
+                "name": "Daves Fire",
+                "date": "2013-06-12T22:17:00Z",
+                "acreage": 226,
+                "containment": 100,
+                "location": "15 miles northwest of Elk Creek off County Road 306 "
+            }
+        }, {
+            "fire": {
+                "name": "306 Fire",
+                "date": "2013-05-01T14:00:00Z",
+                "acreage": 217,
+                "containment": 100,
+                "location": "2 miles south of the community of Elk Creek "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Sonoma, Solano, Lake & Colusa",
+        "latitude": 39.1040645,
+        "longitude": -122.2653887,
+        "id": 12,
+        "slug": "sonoma-solano-lake-colusa",
+        "fires": [{
+            "fire": {
+                "name": "Sonoma-Lake-Napa Unit Lightning Fires",
+                "date": "2013-06-10T19:46:00Z",
+                "acreage": 28,
+                "containment": 100,
+                "location": "throughout Sonoma, Solano, Lake & Colusa Counties "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Multiple",
+        "latitude": 37.763868,
+        "longitude": -122.458394,
+        "id": 13,
+        "slug": "multiple",
+        "fires": [{
+            "fire": {
+                "name": "Northern California Lightning Activity",
+                "date": "2013-06-10T19:46:00Z",
+                "acreage": 0,
+                "containment": 100,
+                "location": "Across Northern California "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Alameda",
+        "latitude": 37.6016892,
+        "longitude": -121.7195459,
+        "id": 14,
+        "slug": "alameda",
+        "fires": [{
+            "fire": {
+                "name": "Vasco Fire",
+                "date": "2013-06-08T17:16:00Z",
+                "acreage": 240,
+                "containment": 100,
+                "location": "off Vasco Road & North Vasco Road, north of Livermore "
+            }
+        }, {
+            "fire": {
+                "name": "Fallon Fire",
+                "date": "2013-07-06T20:09:00Z",
+                "acreage": 38,
+                "containment": 100,
+                "location": "off Fallon Rd & Camino Tassajara near Dublin  "
+            }
+        }, {
+            "fire": {
+                "name": "Grant Fire",
+                "date": "2013-07-04T17:00:00Z",
+                "acreage": 50,
+                "containment": 100,
+                "location": "off Grant Ln Rd & I-580 in the Altamont Pass, 5 miles west of Tracy "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Merced",
+        "latitude": 37.2009788,
+        "longitude": -120.7120023,
+        "id": 15,
+        "slug": "merced",
+        "fires": [{
+            "fire": {
+                "name": "152 Fire",
+                "date": "2013-06-04T22:42:00Z",
+                "acreage": 124,
+                "containment": 100,
+                "location": "Hwy 152 in San Luis Creek Reservoir "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Butte",
+        "latitude": 39.6445906,
+        "longitude": -121.5543062,
+        "id": 16,
+        "slug": "butte",
+        "fires": [{
+            "fire": {
+                "name": "Lone Fire",
+                "date": "2013-06-03T20:49:00Z",
+                "acreage": 298,
+                "containment": 100,
+                "location": "Palermo Road and Lone Tree Road near Palermo "
+            }
+        }, {
+            "fire": {
+                "name": "Neal Fire",
+                "date": "2013-05-22T19:56:00Z",
+                "acreage": 150,
+                "containment": 100,
+                "location": "Neal Road, southwest of Paradise "
+            }
+        }, {
+            "fire": {
+                "name": "Cedar Fire",
+                "date": "2013-05-01T23:16:00Z",
+                "acreage": 72,
+                "containment": 100,
+                "location": "Off Cedar Creek Loop Rd, South of Butte Meadows "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Tuolumne",
+        "latitude": 38.029655,
+        "longitude": -119.9740534,
+        "id": 17,
+        "slug": "tuolumne",
+        "fires": [{
+            "fire": {
+                "name": "Murphy Fire",
+                "date": "2013-06-02T20:30:00Z",
+                "acreage": 100,
+                "containment": 100,
+                "location": "off Lime Kiln Rd "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "San Luis Obispo",
+        "latitude": 35.3102296,
+        "longitude": -120.4357631,
+        "id": 18,
+        "slug": "san-luis-obispo",
+        "fires": [{
+            "fire": {
+                "name": "Branch Fire",
+                "date": "2013-06-02T00:27:00Z",
+                "acreage": 500,
+                "containment": 100,
+                "location": "west of the Carrizo Plain, Los Padres National Forest "
+            }
+        }, {
+            "fire": {
+                "name": "Homestead Fire",
+                "date": "2013-05-26T00:35:00Z",
+                "acreage": 50,
+                "containment": 100,
+                "location": "Homestead Rd & Hwy 41, northeast of Atascadero  "
+            }
+        }, {
+            "fire": {
+                "name": "Cottontail Fire",
+                "date": "2013-05-20T22:45:00Z",
+                "acreage": 35,
+                "containment": 100,
+                "location": "Cayucos Creek Rd & Thunder Canyon Rd north of Cayucos "
+            }
+        }, {
+            "fire": {
+                "name": "Adelaida Fire",
+                "date": "2013-07-07T20:16:00Z",
+                "acreage": 85,
+                "containment": 100,
+                "location": "off Adelaida Rd & Vineyard Dr, west of Paso Robles "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Los Angeles",
+        "latitude": 34.3871821,
+        "longitude": -118.1122679,
+        "id": 19,
+        "slug": "los-angeles",
+        "fires": [{
+            "fire": {
+                "name": "Lake Fire",
+                "date": "2013-05-17T20:23:00Z",
+                "acreage": 712,
+                "containment": 100,
+                "location": "I-5 Southbound at Lake Hughes Road "
+            }
+        }, {
+            "fire": {
+                "name": "Powerhouse Fire",
+                "date": "2013-05-30T22:28:00Z",
+                "acreage": 30274,
+                "containment": 100,
+                "location": "Angeles National Forest "
+            }
+        }, {
+            "fire": {
+                "name": "Magic Fire",
+                "date": "2013-05-28T18:30:00Z",
+                "acreage": 149,
+                "containment": 100,
+                "location": "off Magic Mtn Parkway in Valencia "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "San Joaquin",
+        "latitude": 37.9175935,
+        "longitude": -121.1710389,
+        "id": 20,
+        "slug": "san-joaquin",
+        "fires": [{
+            "fire": {
+                "name": "Shelton Fire",
+                "date": "2013-05-30T18:20:00Z",
+                "acreage": 303,
+                "containment": 100,
+                "location": "off North Shelton Rd in the Linden Peters area "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Santa Barbara",
+        "latitude": 34.6099379,
+        "longitude": -120.0665236,
+        "id": 21,
+        "slug": "santa-barbara",
+        "fires": [{
+            "fire": {
+                "name": "Olive Fire",
+                "date": "2013-05-28T22:24:00Z",
+                "acreage": 170,
+                "containment": 100,
+                "location": "Hwy 246 and Meadowvale, East of Solvang  "
+            }
+        }, {
+            "fire": {
+                "name": "White Fire",
+                "date": "2013-05-27T21:45:00Z",
+                "acreage": 1984,
+                "containment": 100,
+                "location": "Southeast of Lake Cachuma, approx. 12 miles southeast of Santa Ynez "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "San Diego",
+        "latitude": 33.0933809,
+        "longitude": -116.6081653,
+        "id": 22,
+        "slug": "san-diego",
+        "fires": [{
+            "fire": {
+                "name": "General Fire",
+                "date": "2013-05-26T19:04:00Z",
+                "acreage": 1271,
+                "containment": 100,
+                "location": "Banner Grade area, south of Hwy 78 & east of Hwy 79, southeast of Julian "
+            }
+        }, {
+            "fire": {
+                "name": "San Felipe Fire",
+                "date": "2013-05-23T19:20:00Z",
+                "acreage": 2781,
+                "containment": 100,
+                "location": "San Felipe Road, north of Highway 78, East of Julian "
+            }
+        }, {
+            "fire": {
+                "name": "Border Fire",
+                "date": "2013-05-22T23:14:00Z",
+                "acreage": 100,
+                "containment": 100,
+                "location": "Off Alta Rd in the Otay Mesa area "
+            }
+        }, {
+            "fire": {
+                "name": "Chariot Fire",
+                "date": "2013-07-06T19:55:00Z",
+                "acreage": 7055,
+                "containment": 70,
+                "location": "off Sunrise Hwy, 9 miles southeast of Julian "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Kern/Ventura",
+        "latitude": 35.2037463,
+        "longitude": -117.7162922,
+        "id": 23,
+        "slug": "kern-ventura",
+        "fires": [{
+            "fire": {
+                "name": "Grand Fire",
+                "date": "2013-05-15T19:50:00Z",
+                "acreage": 4346,
+                "containment": 100,
+                "location": "South of Frazier Mountain Park Rd, South of Frazier Park "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "San Benito",
+        "latitude": 36.5760883,
+        "longitude": -120.9876321,
+        "id": 24,
+        "slug": "san-benito",
+        "fires": [{
+            "fire": {
+                "name": "Tres Pinos Fire",
+                "date": "2013-05-03T18:42:00Z",
+                "acreage": 354,
+                "containment": 100,
+                "location": "Highway 25 and Horizon Rd, Community of Tres  "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Ventura",
+        "latitude": 34.3704884,
+        "longitude": -119.1390642,
+        "id": 25,
+        "slug": "ventura",
+        "fires": [{
+            "fire": {
+                "name": "Springs Fire",
+                "date": "2013-05-02T14:01:00Z",
+                "acreage": 24251,
+                "containment": 100,
+                "location": "Southbound Highway 101 at Camarillo Springs Road, Camarillo "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Tehama",
+        "latitude": 40.0982197,
+        "longitude": -122.174605,
+        "id": 26,
+        "slug": "tehama",
+        "fires": [{
+            "fire": {
+                "name": "Panther Fire",
+                "date": "2013-05-01T16:12:00Z",
+                "acreage": 6965,
+                "containment": 100,
+                "location": "140K3 Line, 8 miles northwest of Butte Meadows "
+            }
+        }, {
+            "fire": {
+                "name": "Vina Fire",
+                "date": "2013-07-04T14:30:00Z",
+                "acreage": 200,
+                "containment": 100,
+                "location": "Tehama-Vina Rd and Sherman Rd, Los Molinos "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Sonoma",
+        "latitude": 38.5779555,
+        "longitude": -122.9888319,
+        "id": 27,
+        "slug": "sonoma",
+        "fires": [{
+            "fire": {
+                "name": "Yellow Fire",
+                "date": "2013-05-01T21:01:00Z",
+                "acreage": 125,
+                "containment": 100,
+                "location": "Hwy 128 & Yellow Jacket Ranch Rd in Knights Valley, northwest of Calistoga "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Napa",
+        "latitude": 38.5024689,
+        "longitude": -122.2653887,
+        "id": 28,
+        "slug": "napa",
+        "fires": [{
+            "fire": {
+                "name": "Silverado Fire",
+                "date": "2013-04-30T18:44:00Z",
+                "acreage": 75,
+                "containment": 100,
+                "location": "7300 block of Silverado Trail, north of Napa "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Inyo",
+        "latitude": 36.3091865,
+        "longitude": -117.5495846,
+        "id": 29,
+        "slug": "inyo",
+        "fires": [{
+            "fire": {
+                "name": "River Fire",
+                "date": "2013-02-24T16:16:00Z",
+                "acreage": 406,
+                "containment": 100,
+                "location": "south of Narrow Gauge Rd & north of Hwy 136, east of Lone Pine "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Modoc",
+        "latitude": 41.4565165,
+        "longitude": -120.629366,
+        "id": 30,
+        "slug": "modoc",
+        "fires": [{
+            "fire": {
+                "name": "Fox Fire (formally 3-7 Fire)",
+                "date": "2013-07-03T17:56:00Z",
+                "acreage": 502,
+                "containment": 100,
+                "location": "5 miles northwest of Aiden "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Multiple counties",
+        "latitude": 36.778261,
+        "longitude": -119.4179324,
+        "id": 31,
+        "slug": "multiple-counties",
+        "fires": [{
+            "fire": {
+                "name": "Northern Region July Lightning",
+                "date": "2013-07-02T19:00:00Z",
+                "acreage": 24,
+                "containment": 0,
+                "location": "Throughout northeastern California "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Contra Costa",
+        "latitude": 37.8534093,
+        "longitude": -121.9017954,
+        "id": 32,
+        "slug": "contra-costa",
+        "fires": [{
+            "fire": {
+                "name": "Concord Fire",
+                "date": "2013-07-01T22:41:00Z",
+                "acreage": 274,
+                "containment": 100,
+                "location": "off Concord Ave & Vineyard Parkway in Brentwood "
+            }
+        }, {
+            "fire": {
+                "name": "Kirker Fire",
+                "date": "2013-07-01T20:19:00Z",
+                "acreage": 492,
+                "containment": 100,
+                "location": "Kirker Pass Road south of Pittsburg "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Shasta",
+        "latitude": 40.7908864,
+        "longitude": -121.8474493,
+        "id": 33,
+        "slug": "shasta",
+        "fires": [{
+            "fire": {
+                "name": "Fiddler Fire",
+                "date": "2013-07-09T18:59:00Z",
+                "acreage": 43,
+                "containment": 100,
+                "location": "off Fiddler "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "El Dorado",
+        "latitude": 38.74263759999999,
+        "longitude": -120.4357631,
+        "id": 34,
+        "slug": "el-dorado",
+        "fires": [{
+            "fire": {
+                "name": "Kyburz Fire",
+                "date": "2013-07-08T19:45:00Z",
+                "acreage": 0,
+                "containment": 0,
+                "location": "Off Hwy 50 at 30 Mile Tract, Kyburz "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Yuba",
+        "latitude": 39.2547027,
+        "longitude": -121.3998995,
+        "id": 35,
+        "slug": "yuba",
+        "fires": [{
+            "fire": {
+                "name": "McGanney Fire",
+                "date": "2013-07-08T16:59:00Z",
+                "acreage": 73,
+                "containment": 100,
+                "location": "off Highway 20 and McGanney Lane, west of Smartsville "
+            }
+        }]
+    }
+}]

@@ -1,0 +1,214 @@
+var fireData = [{
+    "county": {
+        "name": "San Bernardino",
+        "latitude": 34.9592083,
+        "longitude": -116.419389,
+        "id": 1,
+        "slug": "san-bernardino",
+        "fires": [{
+            "fire": {
+                "name": "Mills Fire",
+                "date": "2013-06-28T21:30:00Z",
+                "acreage": 534,
+                "containment": 100,
+                "location": "south of Highway 38 & Bryant Street, northwest of Yucaipa  "
+            }
+        }, {
+            "fire": {
+                "name": "Lytle Fire",
+                "date": "2013-05-13T20:30:00Z",
+                "acreage": 75,
+                "containment": 100,
+                "location": "I-15 at Sierra Ave, near Lytle Creek "
+            }
+        }, {
+            "fire": {
+                "name": "Fawnskin Fire",
+                "date": "2013-04-21T00:30:00Z",
+                "acreage": 30,
+                "containment": 100,
+                "location": "west of Delamar Mountain, north of the community of Fawnskin, northside of Big Bear Lake "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Monterey",
+        "latitude": 36.3136201,
+        "longitude": -121.3541631,
+        "id": 2,
+        "slug": "monterey",
+        "fires": [{
+            "fire": {
+                "name": "Freeman Fire",
+                "date": "2013-06-29T21:09:00Z",
+                "acreage": 105,
+                "containment": 100,
+                "location": "off Hwy 198, 10 miles east of King City "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Riverside",
+        "latitude": 33.6825587,
+        "longitude": -115.4733554,
+        "id": 3,
+        "slug": "riverside",
+        "fires": [{
+            "fire": {
+                "name": "Hathaway Fire",
+                "date": "2013-06-09T19:30:00Z",
+                "acreage": 0,
+                "containment": 0,
+                "location": "Hathaway Canyon area, northeast of Banning "
+            }
+        }, {
+            "fire": {
+                "name": "Palmyrita Fire",
+                "date": "2013-06-14T20:47:00Z",
+                "acreage": 40,
+                "containment": 100,
+                "location": "Highgrove Pass Rd and Pigeon Pass Rd, Community of Highgrove "
+            }
+        }, {
+            "fire": {
+                "name": "Viper Fire",
+                "date": "2013-06-08T22:37:00Z",
+                "acreage": 42,
+                "containment": 100,
+                "location": "off San Timoteo Canyon Rd and Viper Rd, north of Moreno Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Smiley Fire",
+                "date": "2013-05-25T21:59:00Z",
+                "acreage": 124,
+                "containment": 100,
+                "location": "Off Smiley Blvd & Vista Suelto Rd, north of Moreno Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Water Fire",
+                "date": "2013-05-21T21:16:00Z",
+                "acreage": 90,
+                "containment": 100,
+                "location": "Off Whitewater Canyon Road in Whitewater "
+            }
+        }, {
+            "fire": {
+                "name": "Cherry Fire",
+                "date": "2013-05-20T20:47:00Z",
+                "acreage": 25,
+                "containment": 100,
+                "location": "Off Sunset Ave & Mesa St in Banning "
+            }
+        }, {
+            "fire": {
+                "name": "54 Fire",
+                "date": "2013-05-16T20:48:00Z",
+                "acreage": 40,
+                "containment": 100,
+                "location": "Avenue 54 and Tyler Street, near the community of Coachella "
+            }
+        }, {
+            "fire": {
+                "name": "Gorgonio Fire",
+                "date": "2013-05-04T18:43:00Z",
+                "acreage": 510,
+                "containment": 100,
+                "location": "Highway 243, south of Banning and north of Pine Cove "
+            }
+        }, {
+            "fire": {
+                "name": "Summit Fire",
+                "date": "2013-05-01T19:38:00Z",
+                "acreage": 3166,
+                "containment": 100,
+                "location": "Mias Canyon and Bluff Road in Banning "
+            }
+        }, {
+            "fire": {
+                "name": "Jurupa Fire",
+                "date": "2013-03-01T00:43:00Z",
+                "acreage": 311,
+                "containment": 100,
+                "location": "Rio Rancho Rd & Calle Hermosa, Jurupa Valley "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Fresno",
+        "latitude": 36.9858984,
+        "longitude": -119.2320784,
+        "id": 4,
+        "slug": "fresno",
+        "fires": [{
+            "fire": {
+                "name": "George Fire",
+                "date": "2013-06-25T20:36:00Z",
+                "acreage": 150,
+                "containment": 100,
+                "location": "off Bronco Lane in Squaw Valley "
+            }
+        }, {
+            "fire": {
+                "name": "Sierra Fire",
+                "date": "2013-06-17T21:41:00Z",
+                "acreage": 46,
+                "containment": 100,
+                "location": "Black Mountain Road at Lodge Road near Sierra High School, southeast of Auberry "
+            }
+        }, {
+            "fire": {
+                "name": "Michelle Fire",
+                "date": "2013-06-13T22:54:00Z",
+                "acreage": 35,
+                "containment": 100,
+                "location": "off McKinley Ave & Academy Ave, north of Sanger  "
+            }
+        }, {
+            "fire": {
+                "name": "Clinton Fire",
+                "date": "2013-06-13T18:54:00Z",
+                "acreage": 108,
+                "containment": 100,
+                "location": "Clinton and Highland, East of Fresno "
+            }
+        }, {
+            "fire": {
+                "name": "Butte Fire",
+                "date": "2013-04-09T19:35:00Z",
+                "acreage": 80,
+                "containment": 100,
+                "location": "Butte Ave near Conejo Ave near the community of Helm. "
+            }
+        }]
+    }
+}, {
+    "county": {
+        "name": "Lake",
+        "latitude": 39.08396440000001,
+        "longitude": -122.8084496,
+        "id": 5,
+        "slug": "lake",
+        "fires": [{
+            "fire": {
+                "name": "Mount Fire",
+                "date": "2013-06-20T21:29:00Z",
+                "acreage": 25,
+                "containment": 100,
+                "location": "Off Konocti Rd & Oak Hills Ln, east of Kelseyville "
+            }
+        }, {
+            "fire": {
+                "name": "Becks Fire",
+                "date": "2013-01-22T19:08:00Z",
+                "acreage": 296,
+                "containment": 100,
+                "location": "North of Highway 29, southeast of Kelseyville "
+            }
+        }]
+    }
+}];

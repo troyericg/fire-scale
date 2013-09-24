@@ -1,0 +1,82 @@
+<!-- HTML5 ENCODING -->
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>Firescale</title>
+
+	<!-- "Before he swings the bat, a real slugger imagines an 
+	      arc inside his heart, arching directly to Heaven." -->
+	
+	<link rel="stylesheet" type="text/css" href="_css/screenImport.css" />
+	<script src="_js/_externals/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="_js/_externals/d3/d3.min.js" charset="utf-8"></script>
+	<script src="_js/_externals/mustache/mustache.js" type="text/javascript" charset="utf-8"></script>
+	<script src="_js/js.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="tooltip">
+        <div class="tooltip-triangle"></div>
+        <div class="tooltip-inner">
+            <ul>
+                <li class="name-county"><strong>#</strong></li>
+                <li class="num-fires"><strong>#</strong> Fires</li>
+            </ul>
+        </div>
+    </div>
+	<div id="wrapper">
+        <div id="header">
+            <div class="header-inner">
+                <h1>Fires Across California</h1>
+                <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum vulputate quam, eu pretium ipsum ullamcorper sed. Etiam cursus id risus vel facilisis. Duis iaculis sit amet eros vitae ornare. Phasellus in commodo quam, eu aliquet leo. Aenean eu tellus justo.</p>
+            </div>
+        </div>
+
+        <div id="main">
+            <div id="fire-nav"></div>
+            <div id="entry-container"></div>
+        </div>
+        <div id="footer"></div>
+	</div>
+
+
+
+    <script id="entry-template" type="text/template">
+        <div class="entry-inner">
+            <p class="date">{{date}}</p>
+            <h2>{{countyName}} County</h2>
+            <h3>{{fireName}}</h3>
+            <ul class="fire-data">
+                <li><strong>Acreage: </strong>{{acreage}}</li>
+                <li><strong>Containment: </strong>{{containment}}</li>
+                <li><strong>Location: </strong>{{location}}</li>
+            </ul>
+        </div>
+    </script>
+
+    <script id="entry-template-new" type="text/template">
+         <section class="container {{countyName}}">
+            <div class="box">
+                <figure class="front" style="background-color:{{clr}};">
+                    <div class="entry">
+                    <div class="entry-inner">
+            <p class="date">{{date}}</p>
+            <h2>{{countyName}} County</h2>
+            <h3>{{fireName}}</h3>
+            <ul class="fire-data">
+                <li><strong>Acreage: </strong>{{acreage}}</li>
+                <li><strong>Containment: </strong>{{containment}}</li>
+                <li><strong>Location: </strong>{{location}}</li>
+            </ul>
+        </div>
+        <div class="entry">
+                </figure>
+                <figure class="back">2</figure>
+                <figure class="top">5</figure>
+                <figure class="bottom">6</figure>
+            </div>
+        </section>
+    </script>
+	
+</body>
+</html>

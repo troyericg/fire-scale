@@ -1,0 +1,452 @@
+/* "Before he swings the bat, a real slugger imagines an 
+      arc inside his heart, arching directly to Heaven." */
+
+
+
+/*BASE STYLES------------------------------------------------------------*/
+
+body {
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#3e3e3e;
+	font-size:1em;
+	font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-webkit-font-smoothing:antialiased;
+}
+
+
+a:link, a:visited {
+	color:#d8e6ff;
+	opacity:0.7;
+	outline:none;
+	text-decoration:none;
+}
+
+
+a:hover {
+	opacity:1;
+}
+
+
+
+/*PAGE STRUCTURE------------------------------------------------------------*/
+
+#wrapper {
+	display:block;
+	position:relative;
+	width:100%;
+	overflow:hidden;
+}
+
+
+
+/*HEADER------------------------------------------------------------*/
+
+div#header {
+	display: block;
+	background-color: #fff;
+	min-height: 100px;
+	padding: 50px 0 60px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+div#header div.header-inner {
+	width: 720px;
+	margin: 0 auto;
+}
+
+div.header-inner h1,
+div.header-inner p.intro {
+	display: inline;
+	float: left;
+	width: 350px;
+}
+
+div.header-inner h1 {
+	font: normal 56px/56px "AICCentury-Italic", georgia, "times new roman", serif;
+	margin-right: 20px;
+}
+
+div.header-inner p.intro {
+	font: normal 12px/19px Arial, Helvetica, sans-serif;
+	color: #808080;
+	padding-top: 10px;
+}
+
+/*MAIN STYLES------------------------------------------------------------*/
+
+div#main {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	min-height: 1000px;
+}
+
+#fire-nav {
+	position: absolute;
+	top:30px;
+	left: 50px;
+	cursor: pointer;
+	box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+	-moz-box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+	-webkit-box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+	z-index: 100;
+}
+
+#fire-nav rect {
+	text-align: center;
+	margin: 0 auto;
+}
+
+div#entry-container {
+	width: 100%;
+	min-height: 1000px;
+	padding-top: 10px;
+	opacity: 0;
+}
+
+div.entry {
+	position: relative;
+	min-height: 300px;
+	padding: 20px 0 0 0px;
+	font: normal 30px/34px "AICCentury", georgia, "times new roman", serif;
+}
+
+div.entry-inner {
+	width: 600px;
+	margin: 0 auto;
+}
+
+div.entry p {
+	font-size:18px;
+}
+
+div.entry p,
+div.entry h2,
+div.entry h3,
+div.entry ul {
+	width: 400px;
+}
+
+div.entry p.date {
+	font-size: 11px;
+	font-style: italic;
+	line-height: 18px;
+}
+
+div.entry h2 {
+	font-size: 36px;
+	line-height: 44px;
+}
+
+div.entry h3 {
+	font-size: 24px;
+	line-height: 28px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 12px;
+	padding-bottom: 14px;
+}
+
+div.entry ul {
+	display: inline-block;
+	position: relative;
+	color: #666;
+	font: normal 10px/17px "MigraHeavy", arial, sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+div.entry ul li {
+	width: 190px;
+}
+
+div.entry ul li:last-child {
+	position: absolute;
+	top: 0;
+	right:0;
+}
+
+div.entry ul li strong {
+	color: #000;
+}
+
+
+div.entry div.map-holder {
+	display: inline;
+	float: left;
+	background-color: lightblue;
+	width: 800px; /*447px*/
+	height: 225px;
+	margin-right: 40px;
+	box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+	-moz-box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+	-webkit-box-shadow: 6px 6px 12px 0px rgba(128, 128, 128, 0.6);
+}
+
+div.entry div.entry-inner-map {
+	display: inline;
+}
+
+div.entry div.entry-inner-map ul.fire-data {
+	position: relative;
+	height: 225px;
+}
+
+div.entry div.entry-inner-map ul,
+div.entry div.entry-inner-map ul li {
+	font-size: 9px;
+	width: 115px;
+}
+
+div.entry div.entry-inner-map ul li {
+	position: relative;
+	display: block;
+}
+
+div.entry div.entry-inner-map ul li:last-child {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	top:auto;
+}
+
+a.view-button {
+	display: block;
+	width: 115px;
+	padding: 10px 0;
+	background-color: lightblue;
+	color: #000;
+	font: normal 12px/16px arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+/*SECONDARY STYLES------------------------------------------------------------*/
+
+div.tooltip {
+	position:absolute;
+	display:none;
+	color:#333;
+	font-size:11px;
+	font-weight:300;
+	opacity:0.95;
+	width:110px;
+	z-index:999;
+	pointer-events: none;
+}
+
+div.tooltip-inner {
+	min-height:20px;
+	padding: 7px 7px;
+	text-align:center;
+	background-color:#fff;
+	box-shadow: 0px 1px 4px rgba(128, 128, 128, 1);
+	-o-box-shadow: 0px 1px 4px rgba(128, 128, 128, 1);
+	-moz-box-shadow: 0px 1px 4px rgba(128, 128, 128, 1);
+	-webkit-box-shadow: 0px 1px 4px rgba(128, 128, 128, 1);
+}
+
+div.tooltip-inner ul {
+	margin:0;
+	padding:0;
+}
+
+div.tooltip-inner ul li {
+	font-size: 11px;
+	line-height: 15px;
+	text-align: left;
+	padding-left: 8px;
+}
+
+div.tooltip-inner ul li strong {
+	font-weight:bold;
+}
+
+
+/*div.tooltip-triangle {
+	position: relative;
+	border-style: solid;
+	border-width: 0 15px 20px 15px;
+	border-color: transparent transparent #fff transparent;
+	height: 0px;
+	width: 0px;
+	margin-left:39%;
+	z-index: 1000;
+}*/
+
+
+
+/*  3D CUBE TEST  */
+
+.container {
+  width: 100%;
+  min-height: 320px;
+  position: relative;
+  -webkit-perspective: 1000px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+.box figure {
+  display: block;
+  position: absolute;
+  width: 196px;
+  height: 196px;
+  border: 1px solid #ccc;
+  line-height: 196px;
+  font-size: 120px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+/*  opacity: 0.8;*/
+}
+
+.box .front,
+.box .back {
+	width: 100%;
+	height: 320px;
+}
+
+.box .top,
+.box .bottom {
+	width: 100%;
+	height: 320px;
+	top:50px;
+}
+
+.box .right, 
+.box .left {
+	width: 320px;
+	height: 320px;
+	left:160px;
+}
+
+.box .front /* 1 */ { 
+	-webkit-transform: rotateY(0deg) translateZ( 160px );
+	text-align: left;
+}
+
+.box .back  /* 2 */ { 
+	background-color: orange; 
+	-webkit-transform: rotateX(180deg) translateZ( 160px ); 
+}
+
+.box .right /* 3 */ { 
+	background-color: gray; 
+	-webkit-transform: rotateY(90deg) translateZ( 820px ); 
+}
+
+.box .left /* 4 */ { 
+	background-color: green; 
+	-webkit-transform: rotateY(-90deg) translateZ( 160px ); 
+}
+
+.box .top /* 5 */ { 
+	background-color: yellow; 
+	background-image: url(../misc/mockups/screen_map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transform: rotateX(90deg) translateZ( 210px );
+}
+
+.box .bottom /* 6 */ { 
+	background-color: blue; 
+	-webkit-transform: rotateX(-90deg) translateZ( 110px );
+}
+
+.box.show-top { 
+	 -webkit-transform: translateZ( -100px ) rotateX(  -90deg );
+}
+
+
+/*FOOTER------------------------------------------------------------*/
+
+#footer {
+	background-color:#3e3e3e;
+	border-top:4px solid #808080;
+	color:#999;
+	font-size:0.813em; /*13px*/ 
+	line-height:16px;
+	padding:50px 0;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+/*MISC------------------------------------------------------------*/
+
+.hide {
+	display:none;
+}
+
+a img {
+	border:none;
+}
+
+
+/*  Formerly known as "Clearfix"  */ 
+/*.group {display: inline-block;}*/
+.group:after {content: "."; clear: both;display: block;font-size: 0;height: 0;visibility: hidden;}
+
+
+/*Keeps certain strings from being selectable (highlight-able) on pages.*/
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+
+/* CSS3 VENDOR PREFIXES:
+-o-
+-moz-
+-webkit-
+*/
+
+
+
+/*For Responsive Design: 'target' divided by 'context' = 'result'   */
+
+/*LIST OF STARTER MEDIA QUERIES: 
+
+@media only screen and (max-width:320px) {}
+
+@media only screen and (min-width:320px) and (max-width:480px) {}
+
+@media only screen and (min-width:480px) and (max-width:768px) {}
+
+@media only screen and (min-width:768px) and (max-width:960px) {}
+
+@media only screen and (min-width:960px) and (max-width:1440px) {}
+
+@media only screen and (min-width:1440px) {}
+
+*/
+
+
+
+/*The End*/
